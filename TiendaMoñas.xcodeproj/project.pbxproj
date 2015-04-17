@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB17292D1AC6B4E100109E36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB17292C1AC6B4E100109E36 /* main.m */; };
+		BB1729301AC6B4E100109E36 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB17292F1AC6B4E100109E36 /* AppDelegate.m */; };
+		BB1729321AC6B4E100109E36 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB1729311AC6B4E100109E36 /* Images.xcassets */; };
+		BB1729351AC6B4E100109E36 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB1729331AC6B4E100109E36 /* LaunchScreen.xib */; };
+		BB1729411AC6B4E100109E36 /* TiendaMon_asTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB1729401AC6B4E100109E36 /* TiendaMon_asTests.m */; };
+		BB17294D1AC6B77E00109E36 /* MJSCShopVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BB17294B1AC6B77E00109E36 /* MJSCShopVC.m */; };
+		BB17294E1AC6B77E00109E36 /* MJSCShopVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB17294C1AC6B77E00109E36 /* MJSCShopVC.xib */; };
+		BB1729521AC6B7D300109E36 /* MJSCProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = BB1729511AC6B7D300109E36 /* MJSCProduct.m */; };
+		BB1729551AC6B8FC00109E36 /* MJSCProducts.m in Sources */ = {isa = PBXBuildFile; fileRef = BB1729541AC6B8FC00109E36 /* MJSCProducts.m */; };
+		BB1729631AC6BC1A00109E36 /* balones_oficiales.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB1729571AC6BC1A00109E36 /* balones_oficiales.jpg */; };
+		BB1729641AC6BC1A00109E36 /* batman_superman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB1729581AC6BC1A00109E36 /* batman_superman.jpg */; };
+		BB1729651AC6BC1A00109E36 /* consola_gamejoy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB1729591AC6BC1A00109E36 /* consola_gamejoy.jpg */; };
+		BB1729661AC6BC1A00109E36 /* consola_poly.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB17295A1AC6BC1A00109E36 /* consola_poly.jpg */; };
+		BB1729671AC6BC1A00109E36 /* consola_songa.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BB17295B1AC6BC1A00109E36 /* consola_songa.jpeg */; };
+		BB1729681AC6BC1A00109E36 /* consola_sonyps3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB17295C1AC6BC1A00109E36 /* consola_sonyps3.jpg */; };
+		BB1729691AC6BC1A00109E36 /* mochila_nake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB17295D1AC6BC1A00109E36 /* mochila_nake.jpg */; };
+		BB17296A1AC6BC1A00109E36 /* mochila_shrek.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BB17295E1AC6BC1A00109E36 /* mochila_shrek.jpeg */; };
+		BB17296B1AC6BC1A00109E36 /* power_rangers.png in Resources */ = {isa = PBXBuildFile; fileRef = BB17295F1AC6BC1A00109E36 /* power_rangers.png */; };
+		BB17296C1AC6BC1A00109E36 /* spian.png in Resources */ = {isa = PBXBuildFile; fileRef = BB1729601AC6BC1A00109E36 /* spian.png */; };
+		BB17296D1AC6BC1A00109E36 /* tablet_apad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB1729611AC6BC1A00109E36 /* tablet_apad.jpg */; };
+		BB17296E1AC6BC1A00109E36 /* wtfmochila.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BB1729621AC6BC1A00109E36 /* wtfmochila.jpeg */; };
+		BB1729731AC6C00200109E36 /* MJSCCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BB1729711AC6C00200109E36 /* MJSCCell.m */; };
+		BB1729741AC6C00200109E36 /* MJSCCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB1729721AC6C00200109E36 /* MJSCCell.xib */; };
+		BB17297D1AC6D9C900109E36 /* MJSCSectionHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = BB17297B1AC6D9C900109E36 /* MJSCSectionHeader.m */; };
+		BB17297E1AC6D9C900109E36 /* MJSCSectionHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB17297C1AC6D9C900109E36 /* MJSCSectionHeader.xib */; };
+		BB1729821AC6DCBA00109E36 /* MJSCProductDetailsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BB1729801AC6DCBA00109E36 /* MJSCProductDetailsVC.m */; };
+		BB1729831AC6DCBA00109E36 /* MJSCProductDetailsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB1729811AC6DCBA00109E36 /* MJSCProductDetailsVC.xib */; };
+		BBDBA55D1AD85134002E5339 /* MJSCAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDBA55C1AD85134002E5339 /* MJSCAnimator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB17293B1AC6B4E100109E36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB17291F1AC6B4E100109E36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB1729261AC6B4E100109E36;
+			remoteInfo = "TiendaMoñas";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB1729271AC6B4E100109E36 /* TiendaMoñas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TiendaMoñas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB17292B1AC6B4E100109E36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB17292C1AC6B4E100109E36 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB17292E1AC6B4E100109E36 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BB17292F1AC6B4E100109E36 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BB1729311AC6B4E100109E36 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BB1729341AC6B4E100109E36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BB17293A1AC6B4E100109E36 /* TiendaMoñasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TiendaMoñasTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB17293F1AC6B4E100109E36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB1729401AC6B4E100109E36 /* TiendaMon_asTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TiendaMon_asTests.m; sourceTree = "<group>"; };
+		BB17294A1AC6B77E00109E36 /* MJSCShopVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJSCShopVC.h; sourceTree = "<group>"; };
+		BB17294B1AC6B77E00109E36 /* MJSCShopVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJSCShopVC.m; sourceTree = "<group>"; };
+		BB17294C1AC6B77E00109E36 /* MJSCShopVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MJSCShopVC.xib; sourceTree = "<group>"; };
+		BB1729501AC6B7D300109E36 /* MJSCProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJSCProduct.h; sourceTree = "<group>"; };
+		BB1729511AC6B7D300109E36 /* MJSCProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJSCProduct.m; sourceTree = "<group>"; };
+		BB1729531AC6B8FC00109E36 /* MJSCProducts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJSCProducts.h; sourceTree = "<group>"; };
+		BB1729541AC6B8FC00109E36 /* MJSCProducts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJSCProducts.m; sourceTree = "<group>"; };
+		BB1729571AC6BC1A00109E36 /* balones_oficiales.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = balones_oficiales.jpg; sourceTree = "<group>"; };
+		BB1729581AC6BC1A00109E36 /* batman_superman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = batman_superman.jpg; sourceTree = "<group>"; };
+		BB1729591AC6BC1A00109E36 /* consola_gamejoy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = consola_gamejoy.jpg; sourceTree = "<group>"; };
+		BB17295A1AC6BC1A00109E36 /* consola_poly.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = consola_poly.jpg; sourceTree = "<group>"; };
+		BB17295B1AC6BC1A00109E36 /* consola_songa.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = consola_songa.jpeg; sourceTree = "<group>"; };
+		BB17295C1AC6BC1A00109E36 /* consola_sonyps3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = consola_sonyps3.jpg; sourceTree = "<group>"; };
+		BB17295D1AC6BC1A00109E36 /* mochila_nake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mochila_nake.jpg; sourceTree = "<group>"; };
+		BB17295E1AC6BC1A00109E36 /* mochila_shrek.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mochila_shrek.jpeg; sourceTree = "<group>"; };
+		BB17295F1AC6BC1A00109E36 /* power_rangers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = power_rangers.png; sourceTree = "<group>"; };
+		BB1729601AC6BC1A00109E36 /* spian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spian.png; sourceTree = "<group>"; };
+		BB1729611AC6BC1A00109E36 /* tablet_apad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tablet_apad.jpg; sourceTree = "<group>"; };
+		BB1729621AC6BC1A00109E36 /* wtfmochila.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wtfmochila.jpeg; sourceTree = "<group>"; };
+		BB1729701AC6C00200109E36 /* MJSCCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJSCCell.h; sourceTree = "<group>"; };
+		BB1729711AC6C00200109E36 /* MJSCCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJSCCell.m; sourceTree = "<group>"; };
+		BB1729721AC6C00200109E36 /* MJSCCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MJSCCell.xib; sourceTree = "<group>"; };
+		BB17297A1AC6D9C900109E36 /* MJSCSectionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJSCSectionHeader.h; sourceTree = "<group>"; };
+		BB17297B1AC6D9C900109E36 /* MJSCSectionHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJSCSectionHeader.m; sourceTree = "<group>"; };
+		BB17297C1AC6D9C900109E36 /* MJSCSectionHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MJSCSectionHeader.xib; sourceTree = "<group>"; };
+		BB17297F1AC6DCBA00109E36 /* MJSCProductDetailsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJSCProductDetailsVC.h; sourceTree = "<group>"; };
+		BB1729801AC6DCBA00109E36 /* MJSCProductDetailsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJSCProductDetailsVC.m; sourceTree = "<group>"; };
+		BB1729811AC6DCBA00109E36 /* MJSCProductDetailsVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MJSCProductDetailsVC.xib; sourceTree = "<group>"; };
+		BBDBA55B1AD85134002E5339 /* MJSCAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJSCAnimator.h; sourceTree = "<group>"; };
+		BBDBA55C1AD85134002E5339 /* MJSCAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJSCAnimator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB1729241AC6B4E100109E36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB1729371AC6B4E100109E36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB17291E1AC6B4E100109E36 = {
+			isa = PBXGroup;
+			children = (
+				BB1729291AC6B4E100109E36 /* TiendaMoñas */,
+				BB17293D1AC6B4E100109E36 /* TiendaMoñasTests */,
+				BB1729281AC6B4E100109E36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB1729281AC6B4E100109E36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB1729271AC6B4E100109E36 /* TiendaMoñas.app */,
+				BB17293A1AC6B4E100109E36 /* TiendaMoñasTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB1729291AC6B4E100109E36 /* TiendaMoñas */ = {
+			isa = PBXGroup;
+			children = (
+				BBDBA55A1AD84EA7002E5339 /* Animation */,
+				BB17296F1AC6BFA500109E36 /* View */,
+				BB1729561AC6BC0500109E36 /* assets */,
+				BB17294F1AC6B7B800109E36 /* Model */,
+				BB17292E1AC6B4E100109E36 /* AppDelegate.h */,
+				BB17292F1AC6B4E100109E36 /* AppDelegate.m */,
+				BB1729311AC6B4E100109E36 /* Images.xcassets */,
+				BB1729331AC6B4E100109E36 /* LaunchScreen.xib */,
+				BB17292A1AC6B4E100109E36 /* Supporting Files */,
+				BB17294A1AC6B77E00109E36 /* MJSCShopVC.h */,
+				BB17294B1AC6B77E00109E36 /* MJSCShopVC.m */,
+				BB17294C1AC6B77E00109E36 /* MJSCShopVC.xib */,
+				BB17297F1AC6DCBA00109E36 /* MJSCProductDetailsVC.h */,
+				BB1729801AC6DCBA00109E36 /* MJSCProductDetailsVC.m */,
+				BB1729811AC6DCBA00109E36 /* MJSCProductDetailsVC.xib */,
+			);
+			path = "TiendaMoñas";
+			sourceTree = "<group>";
+		};
+		BB17292A1AC6B4E100109E36 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB17292B1AC6B4E100109E36 /* Info.plist */,
+				BB17292C1AC6B4E100109E36 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BB17293D1AC6B4E100109E36 /* TiendaMoñasTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB1729401AC6B4E100109E36 /* TiendaMon_asTests.m */,
+				BB17293E1AC6B4E100109E36 /* Supporting Files */,
+			);
+			path = "TiendaMoñasTests";
+			sourceTree = "<group>";
+		};
+		BB17293E1AC6B4E100109E36 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB17293F1AC6B4E100109E36 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BB17294F1AC6B7B800109E36 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BB1729501AC6B7D300109E36 /* MJSCProduct.h */,
+				BB1729511AC6B7D300109E36 /* MJSCProduct.m */,
+				BB1729531AC6B8FC00109E36 /* MJSCProducts.h */,
+				BB1729541AC6B8FC00109E36 /* MJSCProducts.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		BB1729561AC6BC0500109E36 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				BB1729571AC6BC1A00109E36 /* balones_oficiales.jpg */,
+				BB1729581AC6BC1A00109E36 /* batman_superman.jpg */,
+				BB1729591AC6BC1A00109E36 /* consola_gamejoy.jpg */,
+				BB17295A1AC6BC1A00109E36 /* consola_poly.jpg */,
+				BB17295B1AC6BC1A00109E36 /* consola_songa.jpeg */,
+				BB17295C1AC6BC1A00109E36 /* consola_sonyps3.jpg */,
+				BB17295D1AC6BC1A00109E36 /* mochila_nake.jpg */,
+				BB17295E1AC6BC1A00109E36 /* mochila_shrek.jpeg */,
+				BB17295F1AC6BC1A00109E36 /* power_rangers.png */,
+				BB1729601AC6BC1A00109E36 /* spian.png */,
+				BB1729611AC6BC1A00109E36 /* tablet_apad.jpg */,
+				BB1729621AC6BC1A00109E36 /* wtfmochila.jpeg */,
+			);
+			name = assets;
+			sourceTree = "<group>";
+		};
+		BB17296F1AC6BFA500109E36 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BB17297A1AC6D9C900109E36 /* MJSCSectionHeader.h */,
+				BB17297B1AC6D9C900109E36 /* MJSCSectionHeader.m */,
+				BB17297C1AC6D9C900109E36 /* MJSCSectionHeader.xib */,
+				BB1729701AC6C00200109E36 /* MJSCCell.h */,
+				BB1729711AC6C00200109E36 /* MJSCCell.m */,
+				BB1729721AC6C00200109E36 /* MJSCCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		BBDBA55A1AD84EA7002E5339 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				BBDBA55B1AD85134002E5339 /* MJSCAnimator.h */,
+				BBDBA55C1AD85134002E5339 /* MJSCAnimator.m */,
+			);
+			name = Animation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB1729261AC6B4E100109E36 /* TiendaMoñas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB1729441AC6B4E100109E36 /* Build configuration list for PBXNativeTarget "TiendaMoñas" */;
+			buildPhases = (
+				BB1729231AC6B4E100109E36 /* Sources */,
+				BB1729241AC6B4E100109E36 /* Frameworks */,
+				BB1729251AC6B4E100109E36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TiendaMoñas";
+			productName = "TiendaMoñas";
+			productReference = BB1729271AC6B4E100109E36 /* TiendaMoñas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB1729391AC6B4E100109E36 /* TiendaMoñasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB1729471AC6B4E100109E36 /* Build configuration list for PBXNativeTarget "TiendaMoñasTests" */;
+			buildPhases = (
+				BB1729361AC6B4E100109E36 /* Sources */,
+				BB1729371AC6B4E100109E36 /* Frameworks */,
+				BB1729381AC6B4E100109E36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB17293C1AC6B4E100109E36 /* PBXTargetDependency */,
+			);
+			name = "TiendaMoñasTests";
+			productName = "TiendaMoñasTests";
+			productReference = BB17293A1AC6B4E100109E36 /* TiendaMoñasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB17291F1AC6B4E100109E36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "María Jesús Senosiain Caamiña";
+				TargetAttributes = {
+					BB1729261AC6B4E100109E36 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					BB1729391AC6B4E100109E36 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = BB1729261AC6B4E100109E36;
+					};
+				};
+			};
+			buildConfigurationList = BB1729221AC6B4E100109E36 /* Build configuration list for PBXProject "TiendaMoñas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB17291E1AC6B4E100109E36;
+			productRefGroup = BB1729281AC6B4E100109E36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB1729261AC6B4E100109E36 /* TiendaMoñas */,
+				BB1729391AC6B4E100109E36 /* TiendaMoñasTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB1729251AC6B4E100109E36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB1729351AC6B4E100109E36 /* LaunchScreen.xib in Resources */,
+				BB1729661AC6BC1A00109E36 /* consola_poly.jpg in Resources */,
+				BB1729321AC6B4E100109E36 /* Images.xcassets in Resources */,
+				BB1729631AC6BC1A00109E36 /* balones_oficiales.jpg in Resources */,
+				BB1729671AC6BC1A00109E36 /* consola_songa.jpeg in Resources */,
+				BB17296E1AC6BC1A00109E36 /* wtfmochila.jpeg in Resources */,
+				BB1729831AC6DCBA00109E36 /* MJSCProductDetailsVC.xib in Resources */,
+				BB17296D1AC6BC1A00109E36 /* tablet_apad.jpg in Resources */,
+				BB1729641AC6BC1A00109E36 /* batman_superman.jpg in Resources */,
+				BB17297E1AC6D9C900109E36 /* MJSCSectionHeader.xib in Resources */,
+				BB1729681AC6BC1A00109E36 /* consola_sonyps3.jpg in Resources */,
+				BB1729651AC6BC1A00109E36 /* consola_gamejoy.jpg in Resources */,
+				BB1729741AC6C00200109E36 /* MJSCCell.xib in Resources */,
+				BB17296A1AC6BC1A00109E36 /* mochila_shrek.jpeg in Resources */,
+				BB1729691AC6BC1A00109E36 /* mochila_nake.jpg in Resources */,
+				BB17296B1AC6BC1A00109E36 /* power_rangers.png in Resources */,
+				BB17294E1AC6B77E00109E36 /* MJSCShopVC.xib in Resources */,
+				BB17296C1AC6BC1A00109E36 /* spian.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB1729381AC6B4E100109E36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB1729231AC6B4E100109E36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB1729301AC6B4E100109E36 /* AppDelegate.m in Sources */,
+				BB1729551AC6B8FC00109E36 /* MJSCProducts.m in Sources */,
+				BB17292D1AC6B4E100109E36 /* main.m in Sources */,
+				BB1729521AC6B7D300109E36 /* MJSCProduct.m in Sources */,
+				BB17297D1AC6D9C900109E36 /* MJSCSectionHeader.m in Sources */,
+				BBDBA55D1AD85134002E5339 /* MJSCAnimator.m in Sources */,
+				BB1729731AC6C00200109E36 /* MJSCCell.m in Sources */,
+				BB1729821AC6DCBA00109E36 /* MJSCProductDetailsVC.m in Sources */,
+				BB17294D1AC6B77E00109E36 /* MJSCShopVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB1729361AC6B4E100109E36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB1729411AC6B4E100109E36 /* TiendaMon_asTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB17293C1AC6B4E100109E36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB1729261AC6B4E100109E36 /* TiendaMoñas */;
+			targetProxy = BB17293B1AC6B4E100109E36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB1729331AC6B4E100109E36 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB1729341AC6B4E100109E36 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB1729421AC6B4E100109E36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BB1729431AC6B4E100109E36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB1729451AC6B4E100109E36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TiendaMoñas/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BB1729461AC6B4E100109E36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TiendaMoñas/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BB1729481AC6B4E100109E36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TiendaMoñasTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TiendaMoñas.app/TiendaMoñas";
+			};
+			name = Debug;
+		};
+		BB1729491AC6B4E100109E36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TiendaMoñasTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TiendaMoñas.app/TiendaMoñas";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB1729221AC6B4E100109E36 /* Build configuration list for PBXProject "TiendaMoñas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB1729421AC6B4E100109E36 /* Debug */,
+				BB1729431AC6B4E100109E36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB1729441AC6B4E100109E36 /* Build configuration list for PBXNativeTarget "TiendaMoñas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB1729451AC6B4E100109E36 /* Debug */,
+				BB1729461AC6B4E100109E36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB1729471AC6B4E100109E36 /* Build configuration list for PBXNativeTarget "TiendaMoñasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB1729481AC6B4E100109E36 /* Debug */,
+				BB1729491AC6B4E100109E36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB17291F1AC6B4E100109E36 /* Project object */;
+}
